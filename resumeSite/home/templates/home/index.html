@@ -1,0 +1,150 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Summer Hamilton</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="{% static "/css/styles.css" %}">
+  </head>
+  <body>
+    <br />
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          {% comment %} High-Level Description and Photo {% endcomment %}
+          <div class="card card-body h-100 border-info" id="profile-wrapper">
+            <img id= "profile-pic" src="{% static "imgs/Profile_Photo.JPG" %}"
+            alt="Headshot">
+            <hr />
+            <h4>Hi, I'm Summer!</h4>
+            <p>
+              I am a Technical Business Analyst, People Leader, and Life-Long
+              Learner
+            </p>
+          </div>
+        </div>
+        {% comment %} More detailed overviwe of experience {% endcomment %}
+        <div class="col-md-9">
+          <div class="card card-body h-100 border-info">
+            <h4>My Experience</h4>
+            <hr />
+            <p>
+              I started my career at Accenture where I spent 10 years working on
+              projects for some of the top pharmaceutical companies, including
+              Pfizer, Merck and Gilead. While at Accenture, I had the
+              opportunity to work as a business analyst, project manager and
+              jack of a trades.
+            </p>
+
+            <p>
+              Now, I consider myself a seasoned Technical Business Analyst in
+              the Life Sciences industry. I have experience working on several
+              high scale data migration, master data management and systems
+              integrations programs.
+            </p>
+
+            <p>
+              I currently manage a team of Technical Business Analysts at Exact
+              Sciences.
+            </p>
+
+            <ul class="social-links">
+              <li>
+                <img src="{% static "imgs/linkedin_black.png"%}" alt="LinkedIn"
+                class="social">
+              </li>
+              <li>
+                <img src="{% static "imgs/twitter_black.png"%}" alt="LinkedIn"
+                class="social">
+              </li>
+              <li>
+                <img src="{% static "imgs/github.png"%}" alt="LinkedIn"
+                class="social">
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <br />
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card card-body h-100">
+            <h4>Lorem ipsum dolor sit amet.</h4>
+            <hr />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
+              blanditiis facere esse adipisci natus! Labore magnam odit sint
+              ipsa perferendis voluptas! Expedita aspernatur saepe et, eius
+              libero provident facere dolore ea odio eos hic consequatur
+              recusandae repudiandae modi atque. Dignissimos similique autem,
+              labore neque et deleniti magnam voluptates vitae voluptatum?
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card card-body h-100">
+            <h4>Lorem ipsum dolor sit amet.</h4>
+            <hr />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab at
+              nisi numquam excepturi provident culpa commodi aliquam! Adipisci
+              nihil vitae repudiandae illo, eaque nisi, quae inventore voluptas
+              voluptate delectus accusantium minus assumenda enim. Quisquam vero
+              perspiciatis minima exercitationem, nihil sit, praesentium,
+              quibusdam tempore itaque error nam dicta recusandae maiores
+              asperiores.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <br />
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card card-body h-100">
+            <h4>Lorem ipsum dolor sit amet.</h4>
+            <hr />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat,
+              illum quasi aliquid pariatur et aperiam eveniet perferendis neque
+              esse saepe! Perspiciatis optio accusamus itaque enim reiciendis
+              recusandae nostrum quas sit asperiores maiores minima dolore animi
+              deleniti illo impedit possimus provident in modi iusto,
+              dignissimos libero quos. Doloremque officia tenetur repellendus?
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card card-body h-100">
+            <h4>Lorem ipsum dolor sit amet.</h4>
+            <hr />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod
+              veritatis incidunt explicabo, libero quibusdam molestias dicta
+              commodi eum asperiores debitis voluptatem id a eligendi vel
+              blanditiis eveniet provident perferendis mollitia consectetur
+              animi omnis voluptate. Exercitationem iusto dolores voluptatum
+              itaque harum facere. Necessitatibus suscipit numquam odit ab
+              explicabo sequi amet facere?
+            </p>
+          </div>
+        </div>
+      </div>
+      <br />
+    </div>
+  </body>
+</html>
